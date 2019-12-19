@@ -1,0 +1,53 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hai", "Halo", "Selamat Pagi", "Selamat Siang", "Selamat Sore", "Selamat Malam"],
+         "responses": ["Hello :)", "Selamat datang di Toko Baju BFM", "Ada yang bisa dibantu?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Terimakasih", "Sampai Jumpa", "Goodbye", "Sampai bertemu kembali", "okelah bye", "bye", "oke dah"],
+         "responses": ["Sedih melihatmu pergi :(", "Sampai jumpa kembali", "Jangan lupa berbelanja ke toko kami :)", "Goodbye :)", "Bye :)"],
+         "context_set": ""
+        },
+        {"tag": "size",
+         "patterns": ["Ukuran berapa yang tersedia?", "Apa saja macam ukurannya?", "Ukurannya tinggal apa?"],
+         "responses": ["Semua ukuran masih ada :)", "Ukuran di toko kami ada S, M, L, XL kak"],
+         "context_set": ""
+        },
+        {"tag": "color",
+         "patterns": ["Ada warna apa saja?", "Tinggal warna apa?", "Rekomendasikan warna untukku"],
+         "responses": ["Semua warna ada :)", "Merah,biru,putih,hitam cocok untukmu :)"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Saya ingin membeli sesuatu", "Apa model baju yang tersedia?", "rekomendasikan model baju"],
+         "responses": ["Kami memiliki model kaos, kemeja, dan jaket terbaru", "Kamu dapat membeli berbagai model terbaru"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["jam berapa buka?", "Jam berapa tutup?", "Buka hari apa saja?"],
+         "responses": ["Kita buka jam 7am-4pm Senin-Jumat!"],
+         "context_set": ""
+        },
+        {"tag": "confirm",
+         "patterns": ["saya ingin kaos", "saya ingin kemeja", "saya ingin jaket"],
+         "responses": ["Baik kak warnanya apa?"],
+         "context_set": ""
+        },
+        {"tag": "confirm_size",
+         "patterns": ["ukuran saya S", "ukuran saya M", "ukuran saya L", "ukuran saya XL"],
+         "responses": ["Baik kak silakan lakukan pembayaran di toko kami, lakukan pembayaran selama 1 jam atau kami masukkan waiting list. Terima kasih sudah berbelanja di toko kami :)"],
+         "context_set": ""
+        },
+        {"tag": "confirm_color",
+         "patterns": ["warna merah", "warna biru", "warna hitam", "warna putih", "merah", "biru", "putih", "hitam"],
+         "responses": ["Oke kak ukurannya apa?"],
+         "context_set": ""
+        },
+        {"tag": "price",
+         "patterns": ["berapa harga kaos", "harga kemeja", "harga jaket"],
+         "responses": ["Harga kaos mulai dari Rp. 50.000 - 100.000, Harga kemeja mulai dari Rp. 80.000 - 200.000, Harga jaket mulai dari Rp. 150.000 - 400.000"],
+         "context_set": ""
+        }
+   ]
+}
